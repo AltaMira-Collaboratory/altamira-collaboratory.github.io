@@ -4,6 +4,10 @@ title: Members
 permalink: /members/
 ---
 
+<div class="back-button">
+  <a href="/">← Back to Home</a>
+</div>
+
 # Members
 
 <div class="members-grid">
@@ -29,6 +33,25 @@ permalink: /members/
 </div>
 
 <style>
+.back-button {
+  margin-bottom: 2rem;
+}
+
+.back-button a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.back-button a:hover {
+  background-color: #f0f0f0;
+  text-decoration: none;
+}
+
 .members-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
