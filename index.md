@@ -5,7 +5,7 @@ title: AltaMira Collaboratory
 
 # AltaMira Collaboratory
 
-A collective of researchers working at the intersection of generative AI and the sciences.
+A collective of researchers working at the intersection of generative AI, the sciences, and engineering.
 
 ## Members
 
