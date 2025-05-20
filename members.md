@@ -16,7 +16,7 @@ permalink: /members/
     <p class="affiliation">MIT</p>
     <div class="member-links">
       <a href="https://scholar.google.com/citations?user=FoK_ufEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
-      <a href="www.linkedin.com/in/andre-souza-8363144b" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="https://www.linkedin.com/in/andre-souza-8363144b" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
       <a href="https://sandreza.github.io/" target="_blank" rel="noopener noreferrer">Personal Website</a>
     </div>
   </div>
