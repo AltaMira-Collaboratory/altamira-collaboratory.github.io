@@ -15,9 +15,9 @@ permalink: /members/
     <h3>Andre Souza</h3>
     <p class="affiliation">MIT</p>
     <div class="member-links">
-      <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
-      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-      <a href="https://personal-website.com" target="_blank" rel="noopener noreferrer">Personal Website</a>
+      <a href="https://scholar.google.com/citations?user=FoK_ufEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
+      <a href="www.linkedin.com/in/andre-souza-8363144b" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="https://sandreza.github.io/" target="_blank" rel="noopener noreferrer">Personal Website</a>
     </div>
   </div>
 
@@ -25,9 +25,8 @@ permalink: /members/
     <h3>Tobias Bischoff</h3>
     <p class="affiliation">Aeolus Labs</p>
     <div class="member-links">
-      <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
-      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-      <a href="https://personal-website.com" target="_blank" rel="noopener noreferrer">Personal Website</a>
+      <a href="https://scholar.google.com/citations?user=90o1ec0AAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
+      <a href="https://www.linkedin.com/in/bischtob/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </div>
 </div>
