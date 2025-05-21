@@ -124,6 +124,11 @@ body {
   padding: 1rem;
   font-size: 0.95rem;
   overflow-x: auto;
+  display: none;
+}
+.bibtex-section:hover .bibtex-entry,
+.bibtex-section:focus-within .bibtex-entry {
+  display: block;
 }
 .pub-description {
   font-size: 0.95rem;
