@@ -37,7 +37,7 @@ permalink: /publications/
       </pre>
     </div>
     <div class="pub-description">
-      <em>Why it matters:</em> Briefly describe the significance or impact of this work here.
+      <em>TLDR;</em> Combines score-based generative models from AI with linear response theory from statistical mechanics.
     </div>
   </div>
 </div>

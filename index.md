@@ -56,18 +56,23 @@ a:hover, .button:hover, .homepage-links a:hover {
   color: var(--accent-dark) !important;
   text-decoration: underline;
 }
-button, .button, input[type="submit"] {
+button, .button, input[type="submit"], .homepage-links .button, .homepage-links a.button {
   background: var(--accent) !important;
   color: #fff !important;
-  border: none;
-  border-radius: 4px;
-  padding: 0.5rem 1.2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s;
+  border: 2px solid var(--accent-dark) !important;
+  border-radius: 4px !important;
+  padding: 0.7rem 1.5rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(186, 106, 60, 0.12) !important;
+  transition: background 0.2s, box-shadow 0.2s !important;
+  display: inline-block !important;
 }
-button:hover, .button:hover, input[type="submit"]:hover {
+button:hover, .button:hover, input[type="submit"]:hover, .homepage-links .button:hover, .homepage-links a.button:hover {
   background: var(--accent-dark) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 16px rgba(186, 106, 60, 0.18) !important;
 }
 section, .card, .info-box {
   background: var(--card-bg) !important;
@@ -94,23 +99,6 @@ section, .card, .info-box {
   gap: 1.5rem;
   justify-content: center;
   margin: 2.5rem 0 1.5rem 0;
-}
-.button {
-  background: var(--accent) !important;
-  color: #fff !important;
-  border: none;
-  border-radius: 4px;
-  padding: 0.7rem 1.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 2px 8px rgba(186, 106, 60, 0.08);
-  transition: background 0.2s, box-shadow 0.2s;
-}
-.button:hover {
-  background: var(--accent-dark) !important;
-  color: #fff !important;
-  box-shadow: 0 4px 16px rgba(186, 106, 60, 0.15);
 }
 </style>
 
