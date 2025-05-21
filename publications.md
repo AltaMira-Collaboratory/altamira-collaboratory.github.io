@@ -12,7 +12,11 @@ permalink: /publications/
   <div class="publications-list">
     <div class="publication-card">
       <h3><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.267302" target="_blank" rel="noopener noreferrer">Response Theory via Generative Score Modeling</a></h3>
-     <div class="pub-description">
+      <div class="citation">
+        <strong>Cite as:</strong><br>
+        Giorgini, Ludovico Theo and Deck, Katherine and Bischoff, Tobias and Souza, Andre. <em>Response Theory via Generative Score Modeling</em>. <strong>Phys. Rev. Lett.</strong> 133, 267302 (2024). <a href="https://doi.org/10.1103/PhysRevLett.133.267302" target="_blank">https://doi.org/10.1103/PhysRevLett.133.267302</a>
+      </div>
+      <div class="pub-description">
         <em>TLDR;</em> Combines score-based generative models from AI with linear response theory from statistical mechanics. 
       </div>
       <div class="bibtex-section">
