@@ -4,22 +4,21 @@ title: Publications
 permalink: /publications/
 ---
 
-<div class="back-button">
-  <a href="/">← Back to Home</a>
-</div>
-
-# Publications
-
-<div class="publications-list">
-  <div class="publication-card">
-    <h3><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.267302" target="_blank" rel="noopener noreferrer">Response Theory via Generative Score Modeling</a></h3>
-    <div class="citation">
-      <strong>Cite as:</strong><br>
-      Giorgini, Ludovico Theo and Deck, Katherine and Bischoff, Tobias and Souza, Andre. <em>Response Theory via Generative Score Modeling</em>. <strong>Phys. Rev. Lett.</strong> 133, 267302 (2024). <a href="https://doi.org/10.1103/PhysRevLett.133.267302" target="_blank">https://doi.org/10.1103/PhysRevLett.133.267302</a>
-    </div>
-    <div class="bibtex-section">
-      <button class="copy-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-      <pre class="bibtex-entry" id="prl-bibtex">
+<div class="center-card">
+  <div class="back-button">
+    <a href="/">← Back to Home</a>
+  </div>
+  <h1>Publications</h1>
+  <div class="publications-list">
+    <div class="publication-card">
+      <h3><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.267302" target="_blank" rel="noopener noreferrer">Response Theory via Generative Score Modeling</a></h3>
+      <div class="citation">
+        <strong>Cite as:</strong><br>
+        Giorgini, Ludovico Theo and Deck, Katherine and Bischoff, Tobias and Souza, Andre. <em>Response Theory via Generative Score Modeling</em>. <strong>Phys. Rev. Lett.</strong> 133, 267302 (2024). <a href="https://doi.org/10.1103/PhysRevLett.133.267302" target="_blank">https://doi.org/10.1103/PhysRevLett.133.267302</a>
+      </div>
+      <div class="bibtex-section">
+        <button class="copy-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+        <pre class="bibtex-entry" id="prl-bibtex">
 @article{PhysRevLett.133.267302,
   title = {Response Theory via Generative Score Modeling},
   author = {Giorgini, Ludovico Theo and Deck, Katherine and Bischoff, Tobias and Souza, Andre},
@@ -34,10 +33,11 @@ permalink: /publications/
   doi = {10.1103/PhysRevLett.133.267302},
   url = {https://link.aps.org/doi/10.1103/PhysRevLett.133.267302}
 }
-      </pre>
-    </div>
-    <div class="pub-description">
-      <em>TLDR;</em> Combines score-based generative models from AI with linear response theory from statistical mechanics.
+        </pre>
+      </div>
+      <div class="pub-description">
+        <em>Why it matters:</em> Briefly describe the significance or impact of this work here.
+      </div>
     </div>
   </div>
 </div>
@@ -60,8 +60,32 @@ function copyBibtex(btn) {
   --card-bg: #fffaf6;
 }
 body {
-  background: var(--primary-bg);
-  color: var(--text-main);
+  background: var(--primary-bg) !important;
+  color: var(--text-main) !important;
+}
+.center-card {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(120, 60, 20, 0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+.back-button {
+  margin-bottom: 2rem;
+}
+.back-button a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+.back-button a:hover {
+  background-color: #f3e5d8;
+  text-decoration: none;
 }
 .publications-list {
   display: flex;
@@ -133,21 +157,5 @@ body {
 .pub-description {
   font-size: 0.95rem;
   color: #8a4a22;
-}
-.back-button {
-  margin-bottom: 2rem;
-}
-.back-button a {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 1.1rem;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
-}
-.back-button a:hover {
-  background-color: #f3e5d8;
-  text-decoration: none;
 }
 </style> 
