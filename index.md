@@ -38,29 +38,29 @@ The AltaMira Collaboratory brings together researchers and practitioners who are
   --card-bg: #fffaf6;
 }
 body {
-  background: var(--primary-bg);
-  color: var(--text-main);
+  background: var(--primary-bg) !important;
+  color: var(--text-main) !important;
 }
 .site-logo {
   border: 2px solid var(--accent);
   background: var(--card-bg);
 }
-h1, h2, h3, h4, h5, h6 {
-  color: var(--accent-dark);
+h1, h2, h3, h4, h5, h6, .site-title, .page-title {
+  color: var(--accent-dark) !important;
 }
-a {
-  color: var(--accent);
+a, .button, .homepage-links a {
+  color: var(--accent) !important;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
-a:hover {
-  color: var(--accent-dark);
+a:hover, .button:hover, .homepage-links a:hover {
+  color: var(--accent-dark) !important;
   text-decoration: underline;
 }
 button, .button, input[type="submit"] {
-  background: var(--accent);
-  color: #fff;
+  background: var(--accent) !important;
+  color: #fff !important;
   border: none;
   border-radius: 4px;
   padding: 0.5rem 1.2rem;
@@ -69,10 +69,10 @@ button, .button, input[type="submit"] {
   transition: background 0.2s;
 }
 button:hover, .button:hover, input[type="submit"]:hover {
-  background: var(--accent-dark);
+  background: var(--accent-dark) !important;
 }
 section, .card, .info-box {
-  background: var(--card-bg);
+  background: var(--card-bg) !important;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(186, 106, 60, 0.08);
   padding: 1.5rem;
@@ -98,8 +98,8 @@ section, .card, .info-box {
   margin: 2.5rem 0 1.5rem 0;
 }
 .button {
-  background: var(--accent);
-  color: #fff;
+  background: var(--accent) !important;
+  color: #fff !important;
   border: none;
   border-radius: 4px;
   padding: 0.7rem 1.5rem;
@@ -110,8 +110,8 @@ section, .card, .info-box {
   transition: background 0.2s, box-shadow 0.2s;
 }
 .button:hover {
-  background: var(--accent-dark);
-  color: #fff;
+  background: var(--accent-dark) !important;
+  color: #fff !important;
   box-shadow: 0 4px 16px rgba(186, 106, 60, 0.15);
 }
 </style>

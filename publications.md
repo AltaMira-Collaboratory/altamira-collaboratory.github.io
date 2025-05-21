@@ -4,6 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
+<div class="back-button">
+  <a href="/">← Back to Home</a>
+</div>
+
 # Publications
 
 <div class="publications-list">
@@ -68,5 +72,21 @@ body {
 .pub-description {
   font-size: 0.95rem;
   color: #8a4a22;
+}
+.back-button {
+  margin-bottom: 2rem;
+}
+.back-button a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+.back-button a:hover {
+  background-color: #f3e5d8;
+  text-decoration: none;
 }
 </style> 
