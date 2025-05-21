@@ -32,12 +32,22 @@ permalink: /members/
 </div>
 
 <style>
+:root {
+  --primary-bg: #f8f5f0;
+  --accent: #b86a3c;
+  --accent-dark: #8a4a22;
+  --text-main: #2c1a0e;
+  --card-bg: #fffaf6;
+}
+body {
+  background: var(--primary-bg);
+  color: var(--text-main);
+}
 .back-button {
   margin-bottom: 2rem;
 }
-
 .back-button a {
-  color: #0366d6;
+  color: var(--accent);
   text-decoration: none;
   font-size: 1.1rem;
   display: inline-block;
@@ -45,52 +55,47 @@ permalink: /members/
   border-radius: 4px;
   transition: background-color 0.2s ease;
 }
-
 .back-button a:hover {
-  background-color: #f0f0f0;
+  background-color: #f3e5d8;
   text-decoration: none;
 }
-
 .members-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
 }
-
 .member-card {
-  background: #f8f9fa;
+  background: var(--card-bg);
   border-radius: 8px;
   padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(186, 106, 60, 0.08);
+  border: 1.5px solid var(--accent);
+  transition: transform 0.2s ease, box-shadow 0.2s;
 }
-
 .member-card:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(186, 106, 60, 0.15);
 }
-
 .member-card h3 {
   margin: 0 0 0.5rem 0;
-  color: #2c3e50;
+  color: var(--accent-dark);
 }
-
 .affiliation {
-  color: #666;
+  color: #8a4a22;
   margin: 0 0 1rem 0;
   font-style: italic;
 }
-
 .member-links {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
-
 .member-links a {
-  color: #0366d6;
+  color: var(--accent);
   text-decoration: none;
+  font-weight: 500;
 }
-
 .member-links a:hover {
   text-decoration: underline;
+  color: var(--accent-dark);
 }
 </style> 
