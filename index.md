@@ -22,8 +22,6 @@ The AltaMira Collaboratory brings together researchers and practitioners who are
 - Cross-domain Applications of Machine Learning
 - Ethical AI Development and Deployment
 
-[View our members →](/members/)
-
 <div class="homepage-links">
   <a class="button" href="/members/">Meet Our Members</a>
   <a class="button" href="/publications/">View Publications</a>

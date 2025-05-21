@@ -12,16 +12,44 @@ permalink: /publications/
 
 <div class="publications-list">
   <div class="publication-card">
-    <h3><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.267302" target="_blank" rel="noopener noreferrer">Title of the PRL Paper</a></h3>
+    <h3><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.267302" target="_blank" rel="noopener noreferrer">Response Theory via Generative Score Modeling</a></h3>
     <div class="citation">
       <strong>Cite as:</strong><br>
-      Author(s). <em>Title of the PRL Paper</em>. <strong>Phys. Rev. Lett.</strong> 133, 267302 (2024). <a href="https://doi.org/10.1103/PhysRevLett.133.267302" target="_blank">https://doi.org/10.1103/PhysRevLett.133.267302</a>
+      Giorgini, Ludovico Theo and Deck, Katherine and Bischoff, Tobias and Souza, Andre. <em>Response Theory via Generative Score Modeling</em>. <strong>Phys. Rev. Lett.</strong> 133, 267302 (2024). <a href="https://doi.org/10.1103/PhysRevLett.133.267302" target="_blank">https://doi.org/10.1103/PhysRevLett.133.267302</a>
+    </div>
+    <div class="bibtex-section">
+      <button class="copy-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+      <pre class="bibtex-entry" id="prl-bibtex">
+@article{PhysRevLett.133.267302,
+  title = {Response Theory via Generative Score Modeling},
+  author = {Giorgini, Ludovico Theo and Deck, Katherine and Bischoff, Tobias and Souza, Andre},
+  journal = {Phys. Rev. Lett.},
+  volume = {133},
+  issue = {26},
+  pages = {267302},
+  numpages = {7},
+  year = {2024},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.133.267302},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.133.267302}
+}
+      </pre>
     </div>
     <div class="pub-description">
       <em>Why it matters:</em> Briefly describe the significance or impact of this work here.
     </div>
   </div>
 </div>
+
+<script>
+function copyBibtex(btn) {
+  const bib = btn.nextElementSibling.innerText;
+  navigator.clipboard.writeText(bib);
+  btn.innerText = 'Copied!';
+  setTimeout(() => { btn.innerText = 'Copy BibTeX'; }, 1500);
+}
+</script>
 
 <style>
 :root {
@@ -68,6 +96,34 @@ body {
   border-radius: 6px;
   margin: 0.7rem 0 0.7rem 0;
   color: var(--text-main);
+}
+.bibtex-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.copy-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+}
+.copy-btn:hover {
+  background: var(--accent-dark);
+}
+.bibtex-entry {
+  background: #f3e5d8;
+  color: var(--text-main);
+  border-radius: 6px;
+  padding: 1rem;
+  font-size: 0.95rem;
+  overflow-x: auto;
 }
 .pub-description {
   font-size: 0.95rem;
