@@ -24,6 +24,11 @@ The AltaMira Collaboratory brings together researchers and practitioners who are
 
 [View our members →](/members/)
 
+<div class="homepage-links">
+  <a class="button" href="/members/">Meet Our Members</a>
+  <a class="button" href="/publications/">View Publications</a>
+</div>
+
 <style>
 :root {
   --primary-bg: #f8f5f0;
@@ -85,6 +90,29 @@ section, .card, .info-box {
   height: auto;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(120, 60, 20, 0.10);
+}
+.homepage-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2.5rem 0 1.5rem 0;
+}
+.button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(186, 106, 60, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.button:hover {
+  background: var(--accent-dark);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(186, 106, 60, 0.15);
 }
 </style>
 

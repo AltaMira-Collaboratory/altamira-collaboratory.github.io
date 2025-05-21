@@ -3,3 +3,12 @@ description: A collective of researchers working at the intersection of generati
 theme: jekyll-theme-minimal
 show_downloads: false
 google_analytics: # Add your Google Analytics ID here if needed
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Members
+    url: /members/
+  - title: Publications
+    url: /publications/
